@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d78fb19-f1f8-4a8e-b0a9-1b37e1f8703b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/cloud-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-client/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-client/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-server/src/main/java/org/killer/cloud/demoeurekaserver/DemoEurekaServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-server/src/main/java/org/killer/cloud/demoeurekaserver/DemoEurekaServerApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/demo-eureka-server/target/" />
@@ -62,6 +54,7 @@
     <session id="-1364091474">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -70,12 +63,14 @@
         <counts>
           <entry key="java" value="42" />
           <entry key="properties" value="319" />
+          <entry key="txt" value="14" />
           <entry key="xml" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="42" />
+          <entry key="PLAIN_TEXT" value="14" />
           <entry key="Properties" value="319" />
           <entry key="XML" value="10" />
         </counts>
@@ -216,8 +211,8 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="width" value="1387" />
-    <option name="height" value="789" />
+    <option name="width" value="1388" />
+    <option name="height" value="790" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -418,12 +413,20 @@
       <option name="presentableId" value="Default" />
       <updated>1546418232257</updated>
       <workItem from="1546418233610" duration="500000" />
-      <workItem from="1546438722577" duration="4150000" />
+      <workItem from="1546438722577" duration="4256000" />
     </task>
+    <task id="LOCAL-00001" summary="update content">
+      <created>1546445250242</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1546445250242</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4650000" />
+    <option name="totallyTimeSpent" value="4756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -436,7 +439,7 @@
       <window_info id="Web" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -463,6 +466,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update content" />
+    <option name="LAST_COMMIT_MESSAGE" value="update content" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/demo-eureka-server/pom.xml">
