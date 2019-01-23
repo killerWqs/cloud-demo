@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d78fb19-f1f8-4a8e-b0a9-1b37e1f8703b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-client/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-client/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-client/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-client/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-client/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-client/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-client/src/main/java/org/killer/cloud/demoeurekaclient/DemoEurekaClientApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-client/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-eureka-client/src/test/java/org/killer/cloud/demoeurekaclient/DemoEurekaClientApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo-eureka-server/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/demo-eureka-server/target/" />
@@ -80,17 +70,17 @@
     <session id="-1364091474">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.18" value="1" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.19" value="2" />
+          <entry key="project.open.time.21" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.59" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -98,7 +88,7 @@
           <entry key="java" value="55" />
           <entry key="properties" value="425" />
           <entry key="txt" value="14" />
-          <entry key="xml" value="69" />
+          <entry key="xml" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -106,23 +96,25 @@
           <entry key="JAVA" value="55" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="Properties" value="425" />
-          <entry key="XML" value="69" />
+          <entry key="XML" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Jenkinsfile" value="1" />
           <entry key="class" value="2" />
           <entry key="java" value="2" />
           <entry key="properties" value="4" />
-          <entry key="xml" value="2" />
+          <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
           <entry key="JAVA" value="2" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="4" />
-          <entry key="XML" value="2" />
+          <entry key="XML" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -138,11 +130,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            <state relative-caret-position="230">
+              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/demo-config-server/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -192,16 +193,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/demo-eureka-server/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" selection-start-line="22" selection-end-line="25" selection-end-column="21" />
+            <state relative-caret-position="115">
+              <caret line="5" column="51" lean-forward="true" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>demo-config-server-0.0.1-SNAPSHOT.jar</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -210,7 +216,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/demo-eureka-client/src/main/java/org/killer/cloud/demoeurekaclient/DemoEurekaClientApplication.java" />
-        <option value="$PROJECT_DIR$/demo-eureka-server/pom.xml" />
         <option value="$PROJECT_DIR$/demo-config-server/src/main/resources/DemoConfigServerApplication.java" />
         <option value="$PROJECT_DIR$/demo-eureka-server/src/main/java/org/killer/cloud/demoeurekaserver/DemoEurekaServerApplication.java" />
         <option value="$PROJECT_DIR$/demo-eureka-client/pom.xml" />
@@ -219,9 +224,11 @@
         <option value="$PROJECT_DIR$/demo-config-server/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/demo-config-server/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/demo-eureka-server/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/demo-config-server/pom.xml" />
         <option value="$PROJECT_DIR$/demo-eureka-server/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/Jenkinsfile" />
+        <option value="$PROJECT_DIR$/demo-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/demo-eureka-server/pom.xml" />
       </list>
     </option>
   </component>
@@ -247,12 +254,19 @@
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="demo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="demo-config-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="demo-config-server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="145" />
@@ -265,8 +279,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -274,10 +286,28 @@
               <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-config-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-config-server" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="cloud-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cloud-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="demo-eureka-server" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,7 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoConfigServerApplication">
+  <component name="RunManager" selected="Spring Boot.DemoEurekaServerApplication">
     <configuration name="DemoConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="demo-config-server" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.killer.cloud.democonfigserver.DemoConfigServerApplication" />
@@ -356,7 +386,9 @@
       <workItem from="1547974076589" duration="978000" />
       <workItem from="1547998093416" duration="2386000" />
       <workItem from="1548002301788" duration="771000" />
-      <workItem from="1548149384055" duration="833000" />
+      <workItem from="1548149384055" duration="861000" />
+      <workItem from="1548215402522" duration="413000" />
+      <workItem from="1548215860649" duration="2350000" />
     </task>
     <task id="LOCAL-00001" summary="update content">
       <created>1546445250242</created>
@@ -386,17 +418,24 @@
       <option name="project" value="LOCAL" />
       <updated>1547191827130</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update content">
+      <created>1548163261932</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1548163261932</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21869000" />
+    <option name="totallyTimeSpent" value="24660000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1427614" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20107238" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -450,20 +489,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-eureka-client/src/main/java/org/killer/cloud/demoeurekaclient/DemoEurekaClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-config-server/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1518">
-          <caret line="66" selection-start-line="66" selection-end-line="72" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-eureka-client/src/main/java/org/killer/cloud/demoeurekaclient/DemoEurekaClientApplication.java" />
+    <entry file="file://$PROJECT_DIR$/demo-eureka-client/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/demo-eureka-client/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/demo-config-server/src/main/java/org/killer/cloud/democonfigserver/DemoConfigServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -506,31 +534,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo-eureka-server/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" selection-start-line="22" selection-end-line="25" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-eureka-client/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="33" column="63" selection-start-line="33" selection-start-column="63" selection-end-line="33" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo-eureka-client/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="67" />
+        <state relative-caret-position="207">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        <state relative-caret-position="230">
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-config-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo-eureka-server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="51" lean-forward="true" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
         </state>
       </provider>
     </entry>
